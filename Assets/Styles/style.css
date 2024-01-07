@@ -227,3 +227,76 @@ main #destination .destination-content span {
 main #destination .destination-content button {
 	margin-top: 30px;
 }
+
+/* coming soon section styles */
+main #coming-soon {
+	background: #fff;
+	font-family: "Inter", sans-serif;
+	border-radius: 16px;
+	min-height: 482px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+main #coming-soon .coming-soon-content {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+main #coming-soon .coming-soon-content .coming-soon-col-1 {
+	max-width: 324px;
+	font-family: "Inter", sans-serif;
+	text-align: left;
+}
+
+main #coming-soon .coming-soon-content .coming-soon-col-1 h2 {
+	color: #f00;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+}
+
+main #coming-soon .coming-soon-content .coming-soon-col-1 h1 {
+	color: #070211;
+	font-family: "Merriweather", serif;
+	font-size: 40px;
+	font-style: normal;
+	font-weight: 900;
+	line-height: normal;
+	text-transform: capitalize;
+}
+
+main #coming-soon .coming-soon-content .coming-soon-col-2 {
+	width: 382px;
+	height: 382px;
+	border-radius: 382px;
+	border: 15px solid #f00;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+main #coming-soon .coming-soon-content .coming-soon-col-2 img {
+	width: 83%;
+	max-width: 303px;
+}
+
+main #coming-soon .coming-soon-content .coming-soon-col-3 {
+	max-width: 228px;
+	font-family: "Inter", sans-serif;
+	text-align: left;
+}
+
+main #coming-soon .coming-soon-content .coming-soon-col-3 h2 {
+	color: #f00;
+	font-size: 40px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+
+main #coming-soon .coming-soon-content .coming-soon-col-3 p {
+	margin: 20px 0;
+}
