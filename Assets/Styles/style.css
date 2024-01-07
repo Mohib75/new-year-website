@@ -439,6 +439,8 @@ main #subscribe .subscribe-content .subscribe-form {
 	height: 50px;
 	margin-top: 30px;
 	position: relative;
+	width: 534px;
+	margin: 30px auto 0 auto;
 }
 
 main #subscribe .subscribe-content .subscribe-form input {
@@ -463,6 +465,7 @@ main #subscribe .subscribe-content .subscribe-form input::placeholder {
 main #subscribe .subscribe-content .subscribe-form button {
 	position: absolute;
 	height: 100%;
+	top: 0;
 	right: 0;
 	color: #fff;
 	border-radius: 0px 50px 50px 0px;
@@ -476,6 +479,79 @@ main #subscribe .subscribe-content .subscribe-form button {
 	text-transform: capitalize;
 	border: none;
 	padding: 13px 26px;
+	cursor: pointer;
+	transition: all 0.5s ease-in-out;
+}
+
+main #subscribe .subscribe-content .subscribe-form button:hover {
+	background: rgb(214, 7, 7);
 }
 
 /* footer section styles */
+footer {
+	background: #070211;
+	border-radius: 16px;
+	min-height: 609px;
+	font-family: "Inter", sans-serif;
+}
+
+footer .footer-content {
+	margin: 130px auto 0 auto;
+	padding: 120px 0;
+}
+
+footer .footer-content h3,
+footer .footer-content p {
+	color: #fff;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 33px;
+}
+
+footer .footer-content hr {
+	border: none;
+	height: 1px;
+	background: rgba(255, 255, 255, 0.15);
+	margin: 48px 0;
+}
+
+footer .footer-content .footer-text {
+	display: flex;
+	justify-content: space-between;
+}
+
+footer .footer-content .footer-text > h3 {
+	max-width: 315px;
+}
+
+footer .footer-content .footer-text .footer-text-details {
+	display: flex;
+	flex-direction: column;
+}
+
+footer .footer-content .footer-text .footer-text-details .footer-text-details-1,
+footer .footer-content .footer-text .footer-text-details .footer-text-details-2 {
+	display: flex;
+}
+
+footer .footer-content .footer-text .footer-text-details .footer-text-details-2 {
+	margin-top: 10px;
+}
+
+footer .footer-content .footer-text .footer-text-details img {
+	margin-right: 20px;
+}
+
+footer .footer-content .footer-images {
+	text-align: center;
+}
+
+footer .footer-content .footer-images img {
+	margin-right: 20px;
+}
+
+footer .footer-content .footer-copyright {
+	display: flex;
+	justify-content: space-between;
+}
