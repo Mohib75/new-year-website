@@ -406,6 +406,15 @@ main #portfolio .portfolio-image {
 	gap: 24px;
 }
 
+main #portfolio .portfolio-image img {
+	transition: all 0.5s ease-in-out;
+	cursor: pointer;
+}
+
+main #portfolio .portfolio-image img:hover {
+	transform: scale(1.1);
+}
+
 /* destination section styles */
 main #subscribe {
 	background: rgba(255, 0, 0, 0.05);
