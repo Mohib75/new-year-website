@@ -558,6 +558,12 @@ footer .footer-content .footer-images {
 
 footer .footer-content .footer-images img {
 	margin-right: 20px;
+	transition: all 0.5s ease-in-out;
+	cursor: pointer;
+}
+
+footer .footer-content .footer-images img:hover {
+	transform: scale(1.2);
 }
 
 footer .footer-content .footer-copyright {
