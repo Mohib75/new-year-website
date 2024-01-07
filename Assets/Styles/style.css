@@ -405,3 +405,77 @@ main #portfolio .portfolio-image {
 	grid-template-columns: repeat(3, 1fr);
 	gap: 24px;
 }
+
+/* destination section styles */
+main #subscribe {
+	background: rgba(255, 0, 0, 0.05);
+	border-radius: 16px;
+	min-height: 616px;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+main #subscribe .subscribe-content {
+	text-align: center;
+	max-width: 739px;
+}
+
+main #subscribe .subscribe-content h1 {
+	color: #070211;
+	text-align: center;
+	font-family: "Merriweather", serif;
+	font-size: 40px;
+	font-style: normal;
+	font-weight: 900;
+	line-height: normal;
+	text-transform: capitalize;
+	margin: 15px 0;
+}
+
+main #subscribe .subscribe-content .subscribe-form {
+	height: 50px;
+	margin-top: 30px;
+	position: relative;
+}
+
+main #subscribe .subscribe-content .subscribe-form input {
+	border-radius: 50px;
+	width: 100%;
+	height: 100%;
+	background: #fff;
+	border: none;
+	outline: none;
+}
+
+main #subscribe .subscribe-content .subscribe-form input::placeholder {
+	color: rgba(7, 2, 17, 0.3);
+	font-family: "Inter", sans-serif;
+	font-size: 15px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	padding-left: 20px;
+}
+
+main #subscribe .subscribe-content .subscribe-form button {
+	position: absolute;
+	height: 100%;
+	right: 0;
+	color: #fff;
+	border-radius: 0px 50px 50px 0px;
+	background: #f00;
+	text-align: center;
+	font-family: "Inter", sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+	text-transform: capitalize;
+	border: none;
+	padding: 13px 26px;
+}
+
+/* footer section styles */
