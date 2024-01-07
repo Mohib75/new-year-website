@@ -147,7 +147,7 @@ main #welcome .welcome-content .welcome-text * {
 	margin-bottom: 24px;
 }
 
-main #welcome .welcome-content .welcome-text h2 {
+main #welcome .welcome-content .welcome-text h1 {
 	color: #fff;
 	font-family: "Merriweather", serif;
 	font-size: 53px;
@@ -216,12 +216,6 @@ main #destination .destination-content h3 {
 
 main #destination .destination-content span {
 	color: #f00;
-	text-align: center;
-	font-size: 26px;
-	font-style: normal;
-	font-weight: 600;
-	line-height: 46px;
-	text-transform: capitalize;
 }
 
 main #destination .destination-content button {
@@ -246,7 +240,6 @@ main #coming-soon .coming-soon-content {
 
 main #coming-soon .coming-soon-content .coming-soon-col-1 {
 	max-width: 324px;
-	font-family: "Inter", sans-serif;
 	text-align: left;
 }
 
@@ -266,6 +259,7 @@ main #coming-soon .coming-soon-content .coming-soon-col-1 h1 {
 	font-weight: 900;
 	line-height: normal;
 	text-transform: capitalize;
+	margin: 20px 0;
 }
 
 main #coming-soon .coming-soon-content .coming-soon-col-2 {
@@ -289,7 +283,7 @@ main #coming-soon .coming-soon-content .coming-soon-col-3 {
 	text-align: left;
 }
 
-main #coming-soon .coming-soon-content .coming-soon-col-3 h2 {
+main #coming-soon .coming-soon-content .coming-soon-col-3 h1 {
 	color: #f00;
 	font-size: 40px;
 	font-style: normal;
@@ -299,4 +293,75 @@ main #coming-soon .coming-soon-content .coming-soon-col-3 h2 {
 
 main #coming-soon .coming-soon-content .coming-soon-col-3 p {
 	margin: 20px 0;
+}
+
+/* sale section styles */
+main #sale {
+	background: #fff;
+	font-family: "Inter", sans-serif;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+main #sale .sale-content {
+	min-height: 900px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+}
+
+main #sale .sale-content .sale-text {
+	max-width: 881px;
+	text-align: center;
+}
+
+main #sale .sale-content .sale-text h2 {
+	color: #070211;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+}
+
+main #sale .sale-content .sale-text h1 {
+	color: #070211;
+	font-family: "Merriweather", serif;
+	font-size: 59px;
+	font-style: normal;
+	font-weight: 900;
+	line-height: normal;
+	margin: 20px 0;
+}
+
+main #sale .sale-content .sale-text span {
+	color: #f00;
+}
+
+main #sale .sale-content .sale-img-1,
+.sale-img-2,
+.sale-img-3,
+.sale-img-4 {
+	position: absolute;
+}
+
+main #sale .sale-content .sale-img-1 {
+	bottom: 0;
+}
+
+main #sale .sale-content .sale-img-2 {
+	left: 0;
+	bottom: 0;
+}
+
+main #sale .sale-content .sale-img-3 {
+	bottom: 31%;
+	right: 21%;
+	z-index: 10;
+}
+
+main #sale .sale-content .sale-img-4 {
+	right: 0;
+	bottom: 25.4%;
+	z-index: 5;
 }
