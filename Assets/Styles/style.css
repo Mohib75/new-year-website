@@ -365,3 +365,43 @@ main #sale .sale-content .sale-img-4 {
 	bottom: 25.4%;
 	z-index: 5;
 }
+
+/* portfolio section styles */
+main #portfolio {
+	background: #fff;
+	font-family: "Inter", sans-serif;
+	margin-left: auto;
+	margin-right: auto;
+	min-height: 1100px;
+}
+
+main #portfolio .portfolio-text {
+	text-align: left;
+	max-width: 739px;
+}
+
+main #portfolio .portfolio-text h2 {
+	color: #f00;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+}
+
+main #portfolio .portfolio-text h1 {
+	color: #070211;
+	font-family: "Merriweather", serif;
+	font-size: 40px;
+	font-style: normal;
+	font-weight: 900;
+	line-height: normal;
+	text-transform: capitalize;
+	margin: 15px 0;
+}
+
+main #portfolio .portfolio-image {
+	margin-top: 48px;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 24px;
+}
