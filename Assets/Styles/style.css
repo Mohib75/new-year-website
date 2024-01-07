@@ -15,6 +15,35 @@ main section {
 	margin-top: 130px;
 }
 
+p {
+	color: rgba(7, 2, 17, 0.6);
+	font-family: "Inter", sans-serif;
+	font-size: 17px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 26px;
+}
+
+.btn {
+	display: inline-flex;
+	padding: 13px 26px;
+	justify-content: center;
+	align-items: center;
+	gap: 8px;
+	color: #fff;
+	text-align: center;
+	font-family: "Inter", sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	text-transform: uppercase;
+	border-radius: 8px;
+	background: #f00;
+	border: none;
+	cursor: pointer;
+}
+
 /* header styles */
 header {
 	font-family: "Merriweather", serif;
@@ -26,13 +55,13 @@ header {
 	display: flex;
 }
 
-header .banner-content {
+header .header-content {
 	max-width: 632px;
 	text-align: center;
 	margin: auto;
 }
 
-header .banner-content .header-greeting {
+header .header-content .header-greeting {
 	color: #fff;
 	text-align: center;
 	font-size: 26px;
@@ -41,7 +70,7 @@ header .banner-content .header-greeting {
 	line-height: normal;
 }
 
-header .banner-content .header-text {
+header .header-content .header-text {
 	color: #fff;
 	text-align: center;
 	font-size: 59px;
@@ -86,4 +115,70 @@ main #categories h3 {
 	font-weight: 700;
 	line-height: normal;
 	margin-bottom: 20px;
+}
+
+/* welcome section styles */
+main #welcome {
+	background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%), url("../Images/Vectorrr.png");
+	background-repeat: no-repeat;
+	border-radius: 16px;
+	min-height: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+main #welcome .welcome-content {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+main #welcome .welcome-content .welcome-text * {
+	text-align: left;
+	max-width: 575px;
+	margin-bottom: 24px;
+}
+
+main #welcome .welcome-content .welcome-text h2 {
+	color: #fff;
+	font-family: "Merriweather", serif;
+	font-size: 53px;
+	font-style: normal;
+	font-weight: 900;
+	line-height: 73px;
+	letter-spacing: 5.7px;
+}
+
+main #welcome .welcome-content .welcome-text p {
+	color: rgba(255, 255, 255, 0.8);
+	font-size: 15px;
+	font-weight: 200;
+}
+
+main #welcome .welcome-content .welcome-text button {
+	display: inline-flex;
+	padding: 13px 26px;
+	justify-content: center;
+	align-items: center;
+	gap: 8px;
+	background: rgba(255, 255, 255, 0.685);
+	border-radius: 8px;
+	border: none;
+	color: #fff;
+	text-align: center;
+	font-family: "Inter", sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	text-transform: uppercase;
+	cursor: pointer;
+	transition: all 0.5s ease-in-out;
+}
+
+main #welcome .welcome-content .welcome-text button:hover {
+	transform: scale(1.2);
 }
