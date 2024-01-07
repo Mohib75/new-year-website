@@ -42,6 +42,11 @@ p {
 	background: #f00;
 	border: none;
 	cursor: pointer;
+	transition: all 0.5s ease-in-out;
+}
+
+.btn:hover {
+	transform: scale(1.2);
 }
 
 /* header styles */
@@ -181,4 +186,44 @@ main #welcome .welcome-content .welcome-text button {
 
 main #welcome .welcome-content .welcome-text button:hover {
 	transform: scale(1.2);
+}
+
+/* destination section styles */
+main #destination {
+	background: linear-gradient(180deg, rgba(255, 0, 0, 0.1) 0%, rgba(255, 0, 0, 0) 100%);
+	font-family: "Inter", sans-serif;
+	border-radius: 16px;
+	min-height: 482px;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+main #destination .destination-content {
+	text-align: center;
+}
+
+main #destination .destination-content h3 {
+	color: #070211;
+	font-size: 26px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 46px;
+	text-transform: capitalize;
+}
+
+main #destination .destination-content span {
+	color: #f00;
+	text-align: center;
+	font-size: 26px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 46px;
+	text-transform: capitalize;
+}
+
+main #destination .destination-content button {
+	margin-top: 30px;
 }
